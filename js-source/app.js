@@ -1,0 +1,2 @@
+$(document).foundation();
+//alert('Hello');
