@@ -63,7 +63,8 @@ module.exports = function (grunt) {
         uglify: {
             js: {
                 options: {
-                    sourceMap: 'js/app.js.map'
+                    sourceMap: 'js/app.js.map',
+                    sourceMappingURL: './app.js.map'
                 },
                 files: {
                     'js/app.js': ['js-source/app.js']
